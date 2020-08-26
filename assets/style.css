@@ -1,0 +1,141 @@
+
+nav {
+    float: left;
+    width: 100%;
+    border-bottom: 4px solid rgb(184, 159, 18);  
+}
+
+.navbar-custom {
+    background-color:  rgb(39, 39, 56);
+    color: white;
+}
+
+.background {
+    background-image: url("grey-linen.jpg");
+    background-size: cover;
+}
+
+
+.text {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(39, 39, 56);
+    font-family: "cookie";
+}
+
+#contact {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(39, 39, 56);
+    font-family: "cookie";
+    padding: 20px 0 20px 0;
+
+}
+
+#me {
+    margin-top: 20px;
+    margin-bottom: 10px;  
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 50%;
+}
+
+#my-name { 
+    color: rgb(39, 39, 56);
+    font-family: "cookie";
+    font-size: 80px;
+}
+
+
+.content-box {
+    background-color: whitesmoke;
+    border: 3px solid gold;
+    font-size: 16px;
+    text-align: center;
+}
+#bio {
+    padding-bottom: 40px;
+}
+
+.row {
+    width: 100%;
+    margin-left: 0;
+}
+
+.highlight-row {
+    background-color: rgb(245, 227, 125);
+    margin-bottom: 10px;
+}
+.contrast-row {
+    color: white;
+    background-color:  rgb(39, 39, 56);   
+}
+
+.projects {
+    color: white;
+    background-color:  rgb(39, 39, 56);
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px; 
+    height: 140px; 
+    object-fit: cover;
+    border: 3px solid rgb(39, 39, 56);; 
+}
+
+#MH {
+    border: 3px solid white;
+}
+
+a {
+    color: white;
+}
+
+.links {
+    padding: 60px 0 60px 0;
+}
+
+footer {
+    color: white;
+    clear: both;
+    text-align: center;
+    border-top: 3px solid rgb(184, 159, 18);
+    background-color: rgb(39, 39, 56);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 1040px) {
+
+    .greeting {
+        margin-top: 65px;
+    }
+    
+    #my-name { 
+        color: rgb(39, 39, 56);
+        font-family: "cookie";
+        overflow: hidden;
+        top: 90px;
+        position: absolute;
+        font-size: 80px;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+        animation-name: name;
+    }
+       
+    @keyframes name {
+        0%, 8.3% { left: -100%; opacity: 0; }
+        8.3%, 10% { left: 10%; opacity: 1; }
+    } 
+  }
+
+@media only screen and (max-width: 1040px) { 
+    #my-name {
+        font-size: 60px;
+    }
+}
