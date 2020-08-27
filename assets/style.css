@@ -15,6 +15,9 @@ nav {
     background-size: cover;
 }
 
+.container-fluid {
+    height: auto;
+}
 
 .text {
     text-align: center;
