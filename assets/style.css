@@ -16,7 +16,7 @@ nav {
 }
 
 .container-fluid {
-    height: auto;
+    height: 100vh;
 }
 
 .text {
