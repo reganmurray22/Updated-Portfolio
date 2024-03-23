@@ -2,7 +2,7 @@
 
 I am a creative individual with a strong background in logistics, working both as a freelance Production Coordinator, facilitating the management and organization of a broad range of media productions, and in hospitality, planning and executing events ranging from multi-course plated meals for several hundred guests to intimate formal dinners. I am now turning my tenacious energy and considerable skills towards a career in Web Development, and am currently pursuing a certificate in Full Stack Web Development through the University of Minnesota. This is my Portfolio.
 
-### [Regan Murray](https://reganmurray22.github.io/Portfolio/)
+### [Regan Murray](https://reganmurray22.github.io/Updated-Portfolio/)
 
 ## Featuring
 
